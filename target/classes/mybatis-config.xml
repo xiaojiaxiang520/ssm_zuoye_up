@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!--引入指定带有注解的dao接口所在位置，在此包下是可以使用注解的-->
+
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="false"/>
+
+    </settings>
+    <mappers>
+        <package name="com.biunm.system211.mapper"></package>
+
+    </mappers>
+
+</configuration>
